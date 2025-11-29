@@ -1,9 +1,41 @@
 @import "tailwindcss";
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Geist:wght@100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Playwrite+MX+Guides&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Geist:wght@100..900&family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Playwrite+MX+Guides&family=TASA+Orbiter:wght@400..800&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
 
 .font-monvex {
 
   font-family: 'Inter', sans-serif;
   font-weight: 600;
+
+}
+
+.font-TASA {
+
+  font-family: 'TASA Orbiter', sans-serif;
+
+}
+
+body {
+  background: linear-gradient(180deg, #cce5ff 0%, #e8d7f9 40%, #fbeedb 75%, #fff8e1 100%);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  filter: saturate(1.05) brightness(1.02);
+}
+
+.logo {
+
+  background-image: url('monvex.png');
+  background-size: cover;
+  background-position: center;
+  width: 30px;
+  height: 24px;
+
+}
+
+.heroimg {
+
+  background-image: url('landing.svg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
 
 }
