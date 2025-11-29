@@ -39,3 +39,12 @@ body {
   background-position: center;
 
 }
+
+.award {
+
+  background-image: url('award.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+
+}
