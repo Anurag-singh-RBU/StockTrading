@@ -48,3 +48,39 @@ body {
   background-position: center;
 
 }
+
+.presslogos {
+
+  background-image: url('pressLogos.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+
+}
+
+.pricingOne {
+
+  background-image: url('pricing.svg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+
+}
+
+.pricingTwo {
+
+  background-image: url('https://zerodha.com/static/images/other-trades.svg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+
+}
+
+.education {
+
+  background-image: url('education.svg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+
+}
